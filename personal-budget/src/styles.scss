@@ -358,36 +358,6 @@ body {
     font-family: Tahoma, Arial;
 }
 
-nav.menu {
-    width: 100%;
-    background-color: #4d5791;
-    height: 44px;
-    padding: 0 40px;
-}
-
-nav.menu ul,
-nav.menu ul li {
-    margin: 0;
-    padding: 0 ;
-    list-style: none;
-    display: inline-block;
-}
-
-nav.menu ul li a {
-    display: block;
-    padding: 0 20px;
-    line-height: 44px;
-    font-size: 1.4em;
-    text-decoration: none;
-    color: #fff;
-    margin: 0;
-}
-
-nav.menu ul li a:hover  {
-    background-color: white;
-    color: #4d5791;
-}
-
 div.hero {
     height: 350px;
     background-color: #b4c6f0;
@@ -464,6 +434,36 @@ section p {
     text-align: justify;
     margin: 20px;
 }
+
+nav.breadcrumbs {
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+  background-color: #afafd5;
+  height: 30px;
+  text-align: left;
+  top: -50px;
+  padding: 0 40px;
+}
+
+nav.breadcrumbs ol,
+nav.breadcrumbs ol li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+}
+
+nav.breadcrumbs ol li a {
+  display: block;
+  padding: 0 15px;
+  line-height: 30px;
+  font-size: 1.2em;
+  margin: 0;
+  text-decoration: none;
+  color: rgb(66, 31, 55);
+}
+
 
 @media screen and (min-width: 768px) {
     .container .div.text-box {
